@@ -30,9 +30,9 @@ const url_shortener = async (original_url = "", token = false) => {
 	}
 
 	async function get_token_via_firebase() {
-		const providerGithub = new firebaseapp.auth.GithubAuthProvider();
+		const providerGithub = new firebase.auth.GithubAuthProvider();
 		try {
-			let result = await firebaseapp.auth().signInWithPopup(providerGithub),
+			let result = await firebase.auth().signInWithPopup(providerGithub),
 				credential = result.credential,
 				token = credential.accessToken,
 				user = result.user;
