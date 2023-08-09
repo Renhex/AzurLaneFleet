@@ -1056,7 +1056,8 @@
             measurementId: "G-YB2NNJQYFG"
         };
         // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
+        const firebaseapp = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(firebaseapp);
       </script>
     <script src='js/oa.min.js?v=fcc9a69df082'></script>
     <script src="js/main-v2.min.js?v=1b774c6c3453"></script>

@@ -5,7 +5,7 @@ const url_shortener = async (original_url = "", token = false) => {
 		if (result) {
 			success = true;
 			return {
-				url: `https://x94fujo6rpg.github.io/su/${result.num}`,
+				url: `https://renhex.github.io/alft/${result.num}`,
 				token: token,
 			};
 		}
@@ -20,7 +20,7 @@ const url_shortener = async (original_url = "", token = false) => {
 			let result = await post_url(data.token, original_url);
 			if (result) {
 				return {
-					url: `https://x94fujo6rpg.github.io/su/${result.num}`,
+					url: `https://renhex.github.io/alft/${result.num}`,
 					token: data.token,
 				};
 			} else {
@@ -30,9 +30,9 @@ const url_shortener = async (original_url = "", token = false) => {
 	}
 
 	async function get_token_via_firebase() {
-		const providerGithub = new firebase.auth.GithubAuthProvider();
+		const providerGithub = new firebaseapp.auth.GithubAuthProvider();
 		try {
-			let result = await firebase.auth().signInWithPopup(providerGithub),
+			let result = await firebaseapp.auth().signInWithPopup(providerGithub),
 				credential = result.credential,
 				token = credential.accessToken,
 				user = result.user;
@@ -63,8 +63,8 @@ const url_shortener = async (original_url = "", token = false) => {
 	}
 
 	async function post_url(token, url) {
-		const target_repo_name = "su-db",
-			api_url = `https://api.github.com/repos/x94fujo6rpg/${target_repo_name}/issues`;
+		const target_repo_name = "alft-db",
+			api_url = `https://api.github.com/repos/renhex/${target_repo_name}/issues`;
 		let headers = new Headers({
 			"Accept": "application/vnd.github.v3+json",
 			"Authorization": `Bearer ${token}`,
