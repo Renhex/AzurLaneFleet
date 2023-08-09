@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <meta name="google-site-verification" content="40YM4WGgSdsqhZQJa92Ndtnh_w3DZOF2PjEqMAwTXHw" />
 
-    <title>Azur Lane Fleet Tool Re</title>
+    <title>Azur Lane Fleet Tool RE</title>
     <meta name="description" content="Continuation fork of x94fujo6rpg's tool to easily share/manage/simulate/build/make your AzurLane fleet. Generate shareable text codes or links.">
-    <meta name="og:title" content="Azur Lane Fleet Tool">
+    <meta name="og:title" content="Azur Lane Fleet Tool RE">
     <meta name="og:url" content="https://renhex.github.io/AzurLaneFleet/" />
     <meta name="og:image" content="https://github.com/renhex/AzurLaneFleet/raw/master/ui/screenshots.jpg" />
     <meta name="og:description" content="Continuation fork of x94fujo6rpg's tool to easily share/manage/simulate/build/make your AzurLane fleet. Generate shareable text codes or links." />
@@ -1041,20 +1041,23 @@
     <script src='js/ship_data.min.js?v=89984c147080'></script>
     <script src='js/equip_data.min.js?v=bf83dc820daf'></script>
     <script src='js/sp_weapon_data.min.js?v=936d57c39c2d'></script>
-    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
-    <script>
+    <script type="module">
+        // Firebase stuff
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
         const firebaseConfig = {
-            apiKey: "AIzaSyDW8RQcC6kjicXm1otJ4vbtyzZXovy7OM8",
-            authDomain: "azur-lane-fleet-tool.firebaseapp.com",
-            projectId: "azur-lane-fleet-tool",
-            storageBucket: "azur-lane-fleet-tool.appspot.com",
-            messagingSenderId: "83250372184",
-            appId: "1:83250372184:web:d91e16ad0e55900b3f342d",
-            measurementId: "G-EWKSWT1DBM"
+          apiKey: "AIzaSyCX-TIVZXVazdfj-nnTGcv-bvzPdj0dlsE",
+          authDomain: "al-fleet-tool-re.firebaseapp.com",
+          projectId: "al-fleet-tool-re",
+          storageBucket: "al-fleet-tool-re.appspot.com",
+          messagingSenderId: "878266988748",
+          appId: "1:878266988748:web:1ec11ea74ca9776f61ea69",
+          measurementId: "G-NMYDQHVNHR"
         };
-        firebase.initializeApp(firebaseConfig);
-    </script>
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
     <script src='js/oa.min.js?v=fcc9a69df082'></script>
     <script src="js/main-v2.min.js?v=1b774c6c3453"></script>
 </body>
