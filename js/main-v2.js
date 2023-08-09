@@ -2144,7 +2144,7 @@ const
             },
             getURL() {
                 let data = app.util.dumpID(),
-                    link = LZString.decompressFromEncodedURIComponent("BYFxAcGcC4HpYB4E4AsAzArgKwPYDYAncAcwDpiBLEYDAI1Ip1gEEAvDAgGQEMA7AUwBiAG378QsIA");
+                    link = LZString.decompressFromEncodedURIComponent("BYFxAcGcC4HpYE4FMB2wkA8B0BzAliMAK4BGWeA9rAIIBeRCAMgIYpIBiANkkiLEA");
                 link = new URL(link);
                 link.searchParams.append("AFLD", data);
                 link = link.href;
