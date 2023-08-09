@@ -1,3 +1,7 @@
+import {
+	firebaseapp,
+    auth
+} from "./firebase.js";
 const url_shortener = async (original_url = "", token = false) => {
 	let success = false;
 	if (token) {
