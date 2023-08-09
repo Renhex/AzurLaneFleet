@@ -20911,5 +20911,36 @@ const equip_data = {
         "en_name": "Dragon Figurine",
         "equip_limit": 89640,
         "cd": []
+    },
+    "3940": {
+        "nationality": 0,
+        "type": 10,
+        "rarity": 4,
+        "tech": 0,
+        "id": 3940,
+        "icon": "3940",
+        "ship_type_forbidden": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            11,
+            12,
+            13,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+        ],
+        "jp_name": "精鋭航空整備饅頭",
+        "cn_name": "航空整备小组",
+        "tw_name": "Elite Aviation Maintenance Manjuu",
+        "en_name": "Elite Aviation Maintenance Manjuu",
+        "equip_limit": 0,
+        "cd": []
     }
 };
