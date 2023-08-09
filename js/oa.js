@@ -72,7 +72,7 @@ const url_shortener = async (original_url = "", token = false) => {
 		}),
 			issue = {
 				title: url, // issue title
-				body: "this is create by app",
+				body: "this is created by the app",
 				assignees: [],
 				labels: [],
 				milestone: null,
