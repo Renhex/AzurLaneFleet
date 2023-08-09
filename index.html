@@ -1041,22 +1041,22 @@
     <script src='js/ship_data.min.js?v=89984c147080'></script>
     <script src='js/equip_data.min.js?v=bf83dc820daf'></script>
     <script src='js/sp_weapon_data.min.js?v=936d57c39c2d'></script>
-    <script type="module">
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js"></script>
+    <script>
         // Firebase stuff
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
         const firebaseConfig = {
-          apiKey: "AIzaSyCX-TIVZXVazdfj-nnTGcv-bvzPdj0dlsE",
-          authDomain: "al-fleet-tool-re.firebaseapp.com",
-          projectId: "al-fleet-tool-re",
-          storageBucket: "al-fleet-tool-re.appspot.com",
-          messagingSenderId: "878266988748",
-          appId: "1:878266988748:web:1ec11ea74ca9776f61ea69",
-          measurementId: "G-NMYDQHVNHR"
+            apiKey: "AIzaSyCGBoLiRlVZw7gWoaYo2gs8Ani_BqalNEI",
+            authDomain: "al-fleet-tool-re-af7bc.firebaseapp.com",
+            projectId: "al-fleet-tool-re-af7bc",
+            storageBucket: "al-fleet-tool-re-af7bc.appspot.com",
+            messagingSenderId: "957257966167",
+            appId: "1:957257966167:web:c2d44b21ece38efb9f7912",
+            measurementId: "G-YB2NNJQYFG"
         };
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        firebase.initializeApp(firebaseConfig);
       </script>
     <script src='js/oa.min.js?v=fcc9a69df082'></script>
     <script src="js/main-v2.min.js?v=1b774c6c3453"></script>
