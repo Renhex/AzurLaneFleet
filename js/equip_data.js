@@ -20940,7 +20940,7 @@ const equip_data = {
         "cn_name": "航空整备小组",
         "tw_name": "Elite Aviation Maintenance Manjuu",
         "en_name": "Elite Aviation Maintenance Manjuu",
-        "equip_limit": 0,
+        "equip_limit": 3940,
         "cd": []
     }
 };
