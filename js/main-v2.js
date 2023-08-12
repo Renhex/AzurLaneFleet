@@ -1700,7 +1700,8 @@ const
                     if (!level) level = app._level_default.ship;
                     app_item.ship_level = app.shipLevelLimit(level); // set level
                     app_item.affinity = affinity_data; // set affinity
-                    app_item.affinity_value = app.util._affinity_bonus[app_item.affinity];
+                    app_item.affinity_value = app.util._affinityValueString[app.util._affinity_bonus[app_item.affinity]];
+                    //app_item.affinity_value = app.util._affinity_bonus[app_item.affinity];
                     return result;
                 }
 
@@ -1909,6 +1910,14 @@ const
                 4: 1.06, // 100 no ring
                 5: 1.09, // 100+ ring
                 6: 1.12, // 200
+            },
+            _affinityValueString: {
+                1       : 1, // 60~0
+                1.01    : "61♥", // 61+
+                1.03    : "81♥", // 90
+                1.06    : "100♥", // 100 no ring
+                1.09    : "100💍", // 100+ ring
+                1.12    : "200💍", // 200
             },
             getShipReload({
                 reload: [base, grow, extra, strengthen, retrofit],
@@ -2423,10 +2432,17 @@ const
                         // use ui value
                         ship.affinity = this.getUiAffinity();
                         ship.affinity_value = app.util._affinity_bonus[ship.affinity];
+                        if(ship.affinity > 1){
+                            ship.affinity_value = app.util._affinityValueString[ship.affinity_value];
+                        }
+                        
                     } else {
                         // use input value
                         ship.affinity = value;
                         ship.affinity_value = app.util._affinity_bonus[value];
+                        if(ship.affinity > 1){
+                            ship.affinity_value = app.util._affinityValueString[ship.affinity_value];
+                        }   
                     }
                     app.util.force_vue_update(ship, "ship_level");
                 } else {
@@ -4315,9 +4331,10 @@ Vue.component("item-container", {
                     v-text="item.property.ship_level"
                     v-if="item.property.bg && (item.property.ship_level > 0) && ui_settings.show_level">
                 </span>
-                <span class="ship_affinity text_shadow"
+                <span class="ship_affinity text_shadow" 
+                    style="color:pink"
                     v-text="item.property.affinity_value"
-                    v-if="item.property.bg && (item.property.affinity_value > 1) && ui_settings.show_affinity">
+                    v-if="item.property.bg && ( item.property.affinity_value !== 1 ) && ( item.property.affinity > 1 ) && ui_settings.show_affinity">
                 </span>
                 <span class="equip_level"
                     v-text="'+'+item.property.equip_level"
