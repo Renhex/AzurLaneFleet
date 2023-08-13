@@ -20942,5 +20942,20 @@ const equip_data = {
         "en_name": "Elite Aviation Maintenance Manjuu",
         "equip_limit": 3940,
         "cd": []
+    },
+    "3960": {
+        "nationality": 6,
+        "type": 10,
+        "rarity": 4,
+        "tech": 0,
+        "id": 3960,
+        "icon": "3960",
+        "ship_type_forbidden": [],
+        "jp_name": "博覧会記念チケット",
+        "cn_name": "博览会纪念票",
+        "tw_name": "World Expo Commemorative Ticket",
+        "en_name": "World Expo Commemorative Ticket",
+        "equip_limit": 3960,
+        "cd": []
     }
 };
