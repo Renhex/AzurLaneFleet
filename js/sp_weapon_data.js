@@ -1417,5 +1417,31 @@ const sp_weapon_data = {
         "en_name": "Dyna Wing",
         "cn_name": "戴拿飞翼",
         "tw_name": "Dyna Wing"
+    },
+    "9912260": {
+        "id": 9912260,
+        "icon": "12260",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 90302,
+        "type": 4,
+        "jp_name": "信義の重槌",
+        "en_name": "Hammer of Faith",
+        "cn_name": "信义的重锤",
+        "tw_name": "Hammer of Faith"
+    },
+    "9912280": {
+        "id": 9912280,
+        "icon": "12280",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 80801,
+        "type": 8,
+        "jp_name": "シュルクーフの日曜日",
+        "en_name": "Surcouf's Sunday",
+        "cn_name": "絮库夫的星期天",
+        "tw_name": "Surcouf's Sunday"
     }
 };
