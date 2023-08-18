@@ -4371,6 +4371,57 @@ const ship_data = {
         ],
         "date": "2019年10月31日"
     },
+    "905020": {
+        "nationality": 9,
+        "type": 5,
+        "base_list": [
+            2,
+            3,
+            1
+        ],
+        "id": 905024,
+        "skin_id": 905020,
+        "english_name": "MNF Clemenceau",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "905020",
+        "painting": "905020",
+        "jp_name": "クレマンソー",
+        "en_name": "Clemenceau",
+        "cn_name": "克莱蒙梭",
+        "tw_name": "Clemenceau",
+        "equip_1": [
+            4
+        ],
+        "equip_2": [
+            1,
+            2
+        ],
+        "equip_3": [
+            6,
+            21
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.6,
+            2,
+            0.7
+        ],
+        "reload": [
+            62,
+            431,
+            0,
+            46,
+            0
+        ],
+        "date": "August 17th 2023"
+    },
     "905010": {
         "nationality": 9,
         "type": 5,
@@ -4825,6 +4876,57 @@ const ship_data = {
         ],
         "date": "2019年06月27日"
     },
+    "901040": {
+        "nationality": 9,
+        "type": 1,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 901044,
+        "skin_id": 901040,
+        "english_name": "MNF Kersaint",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "901040",
+        "painting": "901040",
+        "jp_name": "ケルサン",
+        "en_name": "Kersaint",
+        "cn_name": "凯尔圣",
+        "tw_name": "Kersaint",
+        "equip_1": [
+            1
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.4,
+            1.4,
+            0.75
+        ],
+        "reload": [
+            76,
+            531,
+            0,
+            57,
+            0
+        ],
+        "date": "August 17th 2023"
+    },
     "901030": {
         "nationality": 9,
         "type": 1,
@@ -5128,6 +5230,55 @@ const ship_data = {
         ],
         "date": "2018年07月26日"
     },
+    "807020": {
+        "nationality": 8,
+        "type": 7,
+        "base_list": [
+            3,
+            3,
+            2
+        ],
+        "id": 807024,
+        "skin_id": 807020,
+        "english_name": "FFNF Painlevé",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "807020",
+        "painting": "807020",
+        "jp_name": "パンルヴェ",
+        "en_name": "Painlevé",
+        "cn_name": "伴尔维",
+        "tw_name": "Painlevé",
+        "equip_1": [
+            7
+        ],
+        "equip_2": [
+            8
+        ],
+        "equip_3": [
+            9
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.3,
+            1.3,
+            1.3
+        ],
+        "reload": [
+            47,
+            325,
+            0,
+            35,
+            0
+        ],
+        "date": "August 17th 2023"
+    },
     "807010": {
         "nationality": 8,
         "type": 7,
@@ -5229,6 +5380,57 @@ const ship_data = {
         ],
         "date": "2020年07月09日"
     },
+    "805020": {
+        "nationality": 8,
+        "type": 5,
+        "base_list": [
+            3,
+            3,
+            1
+        ],
+        "id": 805024,
+        "skin_id": 805020,
+        "english_name": "FFNF Lyon",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "805020",
+        "painting": "805020",
+        "jp_name": "リヨン",
+        "en_name": "Lyon",
+        "cn_name": "里昂",
+        "tw_name": "Lyon",
+        "equip_1": [
+            4
+        ],
+        "equip_2": [
+            1,
+            2
+        ],
+        "equip_3": [
+            6,
+            21
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.35,
+            2,
+            1
+        ],
+        "reload": [
+            57,
+            400,
+            0,
+            43,
+            0
+        ],
+        "date": "August 17th 2023"
+    },
     "805010": {
         "nationality": 8,
         "type": 5,
@@ -5328,6 +5530,106 @@ const ship_data = {
             0
         ],
         "date": "2018年04月26日"
+    },
+    "803010": {
+        "nationality": 8,
+        "type": 3,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 803014,
+        "skin_id": 803010,
+        "english_name": "FFNF Suffren",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "803010",
+        "painting": "803010",
+        "jp_name": "シュフラン",
+        "en_name": "Suffren",
+        "cn_name": "絮弗伦",
+        "tw_name": "Suffren",
+        "equip_1": [
+            3
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.15,
+            1.65,
+            0.9
+        ],
+        "reload": [
+            66,
+            462,
+            0,
+            50,
+            0
+        ],
+        "date": "August 17th 2023"
+    },
+    "802030": {
+        "nationality": 8,
+        "type": 2,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 802034,
+        "skin_id": 802030,
+        "english_name": "FFNF Guichen",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "802030",
+        "painting": "802030",
+        "jp_name": "ギシャン",
+        "en_name": "Guichen",
+        "cn_name": "吉尚",
+        "tw_name": "Guichen",
+        "equip_1": [
+            2
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.60,
+            1.50,
+            1
+        ],
+        "reload": [
+            70,
+            490,
+            0,
+            53,
+            0
+        ],
+        "date": "August 17th 2023"
     },
     "802020": {
         "nationality": 8,
@@ -31451,6 +31753,56 @@ const ship_data = {
         ],
         "date": "2017年12月29日"
     },
+    "105119": {
+        "nationality": 1,
+        "type": 5,
+        "base_list": [
+            3,
+            3,
+            1
+        ],
+        "id": 105234,
+        "skin_id": 105119,
+        "english_name": "USS West Virginia",
+        "star": 5,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "105119",
+        "painting": "105119",
+        "jp_name": "ウェストバージニア改",
+        "en_name": "West Virginia (Retrofit)",
+        "cn_name": "西弗吉尼亚·改",
+        "tw_name": "West Virginia (Retrofit)",
+        "equip_1": [
+            4
+        ],
+        "equip_2": [
+            1
+        ],
+        "equip_3": [
+            6,
+            21
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.45,
+            2,
+            1
+        ],
+        "reload": [
+            55,
+            381,
+            0,
+            41,
+            25
+        ],
+        "date": "August 17th 2023"
+    },
     "105110": {
         "nationality": 1,
         "type": 5,
@@ -31464,7 +31816,7 @@ const ship_data = {
         "english_name": "USS West Virginia",
         "star": 5,
         "rarity": 4,
-        "retro": 0,
+        "retro": 1,
         "uni_id": "105110",
         "painting": "xifujiniya",
         "jp_name": "ウェストバージニア",

@@ -20957,5 +20957,38 @@ const equip_data = {
         "en_name": "World Expo Commemorative Ticket",
         "equip_limit": 3960,
         "cd": []
+    },
+    "90260": {
+        "nationality": 8,
+        "type": 2,
+        "rarity": 5,
+        "tech": 0,
+        "id": 90260,
+        "icon": "50200",
+        "ship_type_forbidden": [
+            22
+        ],
+        "jp_name": "152mm三連装砲Mle1930(榴弾)",
+        "cn_name": "三联装152mm主炮Mle1930(高爆弹)",
+        "tw_name": "Triple 152mm Mle1930 Main Gun Mount (HE)",
+        "en_name": "Triple 152mm Mle1930 Main Gun Mount (HE)",
+        "equip_limit": 0,
+        "cd": [
+            571,
+            565,
+            559,
+            553,
+            547,
+            541,
+            535,
+            529,
+            523,
+            517,
+            511,
+            511,
+            511,
+            511
+
+        ]
     }
 };
