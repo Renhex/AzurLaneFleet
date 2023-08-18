@@ -24433,6 +24433,57 @@ const ship_data = {
         ],
         "date": "2017年05月25日"
     },
+    "205039": {
+        "nationality": 2,
+        "type": 5,
+        "base_list": [
+            3,
+            3,
+            1
+        ],
+        "id": 205154,
+        "skin_id": 205039,
+        "english_name": "HMS Nelson",
+        "star": 5,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "205039",
+        "painting": "205039",
+        "jp_name": "ネルソン改",
+        "en_name": "Nelson (Retrofit)",
+        "cn_name": "纳尔逊.改",
+        "tw_name": "Nelson (Retrofit)",
+        "equip_1": [
+            4
+        ],
+        "equip_2": [
+            1,
+            2
+        ],
+        "equip_3": [
+            6,
+            21
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.45,
+            2,
+            1.05
+        ],
+        "reload": [
+            55,
+            381,
+            0,
+            41,
+            20
+        ],
+        "date": "August 17th 2023"
+    },
     "205030": {
         "nationality": 2,
         "type": 5,
@@ -24446,7 +24497,7 @@ const ship_data = {
         "english_name": "HMS Nelson",
         "star": 5,
         "rarity": 4,
-        "retro": 0,
+        "retro": 1,
         "uni_id": "205030",
         "painting": "naerxun",
         "jp_name": "ネルソン",
