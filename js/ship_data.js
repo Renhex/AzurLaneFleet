@@ -3763,6 +3763,57 @@ const ship_data = {
         ],
         "date": "2022年07月28日"
     },
+    "9702050": {
+        "nationality": 97,
+        "type": 2,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 9702054,
+        "skin_id": 9702050,
+        "english_name": "Jintsū.META !TWnoData",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "9702050",
+        "painting": "9702050",
+        "jp_name": "神通(META)",
+        "en_name": "Jintsuu META",
+        "cn_name": "神通·META",
+        "tw_name": "Jintsuu META*",
+        "equip_1": [
+            2
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.2,
+            1.85,
+            1.15
+        ],
+        "reload": [
+            75,
+            522,
+            0,
+            56,
+            0
+        ],
+        "date": "August 31st 2023"
+    },
     "9702040": {
         "nationality": 97,
         "type": 2,
