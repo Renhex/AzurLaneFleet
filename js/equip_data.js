@@ -20990,5 +20990,20 @@ const equip_data = {
             511
 
         ]
+    },
+    "3980": {
+        "nationality": 0,
+        "type": 10,
+        "rarity": 4,
+        "tech": 0,
+        "id": 3980,
+        "icon": "3980",
+        "ship_type_forbidden": [],
+        "jp_name": "模擬電子対抗戦コマンド",
+        "cn_name": "对抗模拟指令",
+        "tw_name": "Anti-EM Commands",
+        "en_name": "Anti-EM Commands",
+        "equip_limit": 3980,
+        "cd": []
     }
 };
