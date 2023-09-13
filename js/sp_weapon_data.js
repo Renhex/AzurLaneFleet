@@ -1443,5 +1443,70 @@ const sp_weapon_data = {
         "en_name": "Surcouf's Sunday",
         "cn_name": "絮库夫的星期天",
         "tw_name": "Surcouf's Sunday"
+    },
+    "9912380": {
+        "id": 9912380,
+        "icon": "12380",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 30210,
+        "type": 9,
+        "jp_name": "心配性の妹から",
+        "en_name": "Sister's Care Package",
+        "cn_name": "来自妹妹的关爱",
+        "tw_name": "Sister's Care Package"
+    },
+    "9912300": {
+        "id": 9912300,
+        "icon": "12300",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 10514,
+        "type": 6,
+        "jp_name": "最硬最強の盾",
+        "en_name": "The Sturdiest, Strongest Shield",
+        "cn_name": "最硬最强之盾",
+        "tw_name": "The Sturdiest, Strongest Shield"
+    },
+    "9912360": {
+        "id": 9912360,
+        "icon": "12360",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 20304,
+        "type": 4,
+        "jp_name": "雲さん観察の成果",
+        "en_name": "The Sweetness of Cloudwatching",
+        "cn_name": "云朵观察成果",
+        "tw_name": "The Sweetness of Cloudwatching"
+    },
+    "9912340": {
+        "id": 9912340,
+        "icon": "12340",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 40802,
+        "type": 8,
+        "jp_name": "テレカクシ",
+        "en_name": "Emotion-Concealing Garb",
+        "cn_name": "遮掩表情的外装",
+        "tw_name": "Emotion-Concealing Garb"
+    },
+    "9912320": {
+        "id": 9912320,
+        "icon": "12320",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 40102,
+        "type": 1,
+        "jp_name": "レーベくん",
+        "en_name": "Mini Lebe",
+        "cn_name": "莱伯君",
+        "tw_name": "Mini Lebe"
     }
 };
