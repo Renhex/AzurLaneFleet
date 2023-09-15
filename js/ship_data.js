@@ -15826,6 +15826,57 @@ const ship_data = {
         ],
         "date": "2018年04月26日"
     },
+    "305130": {
+        "nationality": 3,
+        "type": 5,
+        "base_list": [
+            3,
+            3,
+            1
+        ],
+        "id": 305134,
+        "skin_id": 305130,
+        "english_name": "IJN Owari",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "305130",
+        "painting": "305130",
+        "jp_name": "尾張",
+        "en_name": "Owari",
+        "cn_name": "尾张",
+        "tw_name": "Owari",
+        "equip_1": [
+            4
+        ],
+        "equip_2": [
+            1,
+            2
+        ],
+        "equip_3": [
+            6,
+            21
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.4,
+            2,
+            1
+        ],
+        "reload": [
+            53,
+            370,
+            0,
+            40,
+            0
+        ],
+        "date": "September 14th 2023"
+    },
     "305140": {
         "nationality": 3,
         "type": 5,
@@ -17043,6 +17094,55 @@ const ship_data = {
         ],
         "date": "2018年04月26日"
     },
+    "303190": {
+        "nationality": 3,
+        "type": 3,
+        "base_list": [
+            2,
+            2,
+            1
+        ],
+        "id": 303194,
+        "skin_id": 303190,
+        "english_name": "IJN Unzen",
+        "star": 6,
+        "rarity": 6,
+        "retro": 0,
+        "uni_id": "303190",
+        "painting": "303190",
+        "jp_name": "雲仙",
+        "en_name": "Unzen",
+        "cn_name": "云仙",
+        "tw_name": "Unzen",
+        "equip_1": [
+            3
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.4,
+            1.5,
+            1.3
+        ],
+        "reload": [
+            70,
+            485,
+            0,
+            52,
+            0
+        ],
+        "date": "September 14th 2023"
+    },
     "303180": {
         "nationality": 3,
         "type": 3,
@@ -17437,6 +17537,55 @@ const ship_data = {
         ],
         "date": "2018年12月27日"
     },
+    // "303080": {
+    //     "nationality": 3,
+    //     "type": 3,
+    //     "base_list": [
+    //         1,
+    //         2,
+    //         1
+    //     ],
+    //     "id": 303084,
+    //     "skin_id": 303080,
+    //     "english_name": "IJN Nachi",
+    //     "star": 5,
+    //     "rarity": 3,
+    //     "retro": 0,
+    //     "uni_id": "303080",
+    //     "painting": "nazhi",
+    //     "jp_name": "那智",
+    //     "en_name": "Nachi",
+    //     "cn_name": "那智",
+    //     "tw_name": "那智",
+    //     "equip_1": [
+    //         3
+    //     ],
+    //     "equip_2": [
+    //         5
+    //     ],
+    //     "equip_3": [
+    //         6
+    //     ],
+    //     "equip_4": [
+    //         10
+    //     ],
+    //     "equip_5": [
+    //         10
+    //     ],
+    //     "eq_p": [
+    //         1.3,
+    //         1.65,
+    //         1
+    //     ],
+    //     "reload": [
+    //         60,
+    //         417,
+    //         0,
+    //         45,
+    //         0
+    //     ],
+    //     "date": "2017年06月23日"
+    // },
     "303080": {
         "nationality": 3,
         "type": 3,
@@ -18437,6 +18586,57 @@ const ship_data = {
         ],
         "date": "2018年03月29日"
     },
+    "302060": {
+        "nationality": 3,
+        "type": 2,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 302064,
+        "skin_id": 302060,
+        "english_name": "IJN Natori",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "302060",
+        "painting": "302060",
+        "jp_name": "名取",
+        "en_name": "Natori",
+        "cn_name": "名取",
+        "tw_name": "Natori",
+        "equip_1": [
+            2
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.2,
+            1.65,
+            1.25
+        ],
+        "reload": [
+            67,
+            465,
+            0,
+            50,
+            0
+        ],
+        "date": "September 14th 2023"
+    },
     "302099": {
         "nationality": 3,
         "type": 2,
@@ -18999,6 +19199,108 @@ const ship_data = {
             0
         ],
         "date": "2019年04月18日"
+    },
+    "301900": {
+        "nationality": 3,
+        "type": 1,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 301904,
+        "skin_id": 301900,
+        "english_name": "IJN Asanagi !TWnoData",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "301900",
+        "painting": "301900",
+        "jp_name": "朝凪",
+        "en_name": "Asanagi",
+        "cn_name": "朝凪",
+        "tw_name": "Asanagi*",
+        "equip_1": [
+            1
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            0.75,
+            1.4,
+            0.75
+        ],
+        "reload": [
+            79,
+            548,
+            0,
+            59,
+            0
+        ],
+        "date": "September 14th 2023"
+    },
+    "301890": {
+        "nationality": 3,
+        "type": 1,
+        "base_list": [
+            2,
+            1,
+            1
+        ],
+        "id": 301894,
+        "skin_id": 301890,
+        "english_name": "IJN Hatsuzuki !TWnoData",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "301890",
+        "painting": "301890",
+        "jp_name": "初月",
+        "en_name": "Hatsuzuki",
+        "cn_name": "初月",
+        "tw_name": "Hatsuzuki*",
+        "equip_1": [
+            1
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.1,
+            1.35,
+            1.45
+        ],
+        "reload": [
+            80,
+            557,
+            0,
+            60,
+            0
+        ],
+        "date": "September 14th 2023"
     },
     "301880": {
         "nationality": 3,

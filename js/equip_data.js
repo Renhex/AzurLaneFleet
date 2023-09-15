@@ -21005,5 +21005,38 @@ const equip_data = {
         "en_name": "Anti-EM Commands",
         "equip_limit": 3980,
         "cd": []
+    },
+    "33120": {
+        "nationality": 3,
+        "type": 3,
+        "rarity": 6,
+        "tech": 0,
+        "id": 33120,
+        "icon": "33120",
+        "ship_type_forbidden": [
+            22
+        ],
+        "jp_name": "試作型203mm/55三連装砲",
+        "cn_name": "试作型203mm/55三连装主炮",
+        "tw_name": "Prototype Triple 203mm/55 Main Gun Mount",
+        "en_name": "Prototype Triple 203mm/55 Main Gun Mount",
+        "equip_limit": 0,
+        "cd": [
+            1493,
+            1458,
+            1423,
+            1388,
+            1353,
+            1318,
+            1283,
+            1248,
+            1213,
+            1178,
+            1143,
+            1143,
+            1143,
+            1143
+
+        ]
     }
 };
