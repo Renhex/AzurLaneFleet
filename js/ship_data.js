@@ -17537,55 +17537,55 @@ const ship_data = {
         ],
         "date": "2018年12月27日"
     },
-    // "303080": {
-    //     "nationality": 3,
-    //     "type": 3,
-    //     "base_list": [
-    //         1,
-    //         2,
-    //         1
-    //     ],
-    //     "id": 303084,
-    //     "skin_id": 303080,
-    //     "english_name": "IJN Nachi",
-    //     "star": 5,
-    //     "rarity": 3,
-    //     "retro": 0,
-    //     "uni_id": "303080",
-    //     "painting": "nazhi",
-    //     "jp_name": "那智",
-    //     "en_name": "Nachi",
-    //     "cn_name": "那智",
-    //     "tw_name": "那智",
-    //     "equip_1": [
-    //         3
-    //     ],
-    //     "equip_2": [
-    //         5
-    //     ],
-    //     "equip_3": [
-    //         6
-    //     ],
-    //     "equip_4": [
-    //         10
-    //     ],
-    //     "equip_5": [
-    //         10
-    //     ],
-    //     "eq_p": [
-    //         1.3,
-    //         1.65,
-    //         1
-    //     ],
-    //     "reload": [
-    //         60,
-    //         417,
-    //         0,
-    //         45,
-    //         0
-    //     ],
-    //     "date": "2017年06月23日"
-    // },
+    "303089": {
+        "nationality": 3,
+        "type": 3,
+        "base_list": [
+            1,
+            2,
+            1
+        ],
+        "id": 303084,
+        "skin_id": 303089,
+        "english_name": "IJN Nachi",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "303089",
+        "painting": "303089",
+        "jp_name": "那智改",
+        "en_name": "Nachi (Retrofit)",
+        "cn_name": "那智改",
+        "tw_name": "Nachi (Retrofit)",
+        "equip_1": [
+            3
+        ],
+        "equip_2": [
+            5
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10
+        ],
+        "equip_5": [
+            10
+        ],
+        "eq_p": [
+            1.35,
+            1.75,
+            1.05
+        ],
+        "reload": [
+            60,
+            417,
+            0,
+            45,
+            5
+        ],
+        "date": "September 14th 2023"
+    },
     "303080": {
         "nationality": 3,
         "type": 3,
@@ -17599,7 +17599,7 @@ const ship_data = {
         "english_name": "IJN Nachi",
         "star": 5,
         "rarity": 3,
-        "retro": 0,
+        "retro": 1,
         "uni_id": "303080",
         "painting": "nazhi",
         "jp_name": "那智",
