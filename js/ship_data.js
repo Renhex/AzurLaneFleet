@@ -3208,6 +3208,57 @@ const ship_data = {
         ],
         "date": "2020年12月22日"
     },
+    "9706030": {
+        "nationality": 97,
+        "type": 6,
+        "base_list": [
+            3,
+            3,
+            1
+        ],
+        "id": 9706034,
+        "skin_id": 9706030,
+        "english_name": "Princeton.META",
+        "star": 5,
+        "rarity": 4,
+        "retro": 0,
+        "uni_id": "9706030",
+        "painting": "9706030",
+        "jp_name": "プリンストン(META)",
+        "en_name": "Princeton META",
+        "cn_name": "普林斯顿·META",
+        "tw_name": "Princeton META",
+        "equip_1": [
+            7
+        ],
+        "equip_2": [
+            8
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            15
+        ],
+        "equip_5": [
+            10,
+            15
+        ],
+        "eq_p": [
+            1.25,
+            1.55,
+            0.8
+        ],
+        "reload": [
+            66,
+            460,
+            0,
+            50,
+            0
+        ],
+        "date": "September 28th 2023"
+    },
     "9706020": {
         "nationality": 97,
         "type": 6,
