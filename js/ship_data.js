@@ -78,7 +78,8 @@ const ship_data = {
             7
         ],
         "equip_3": [
-            6
+            6,
+            21
         ],
         "equip_4": [
             10
@@ -11217,7 +11218,8 @@ const ship_data = {
             2
         ],
         "equip_3": [
-            6
+            6,
+            21
         ],
         "equip_4": [
             10
@@ -31838,7 +31840,8 @@ const ship_data = {
             7
         ],
         "equip_3": [
-            6
+            6,
+            21
         ],
         "equip_4": [
             10
