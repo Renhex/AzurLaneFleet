@@ -20490,7 +20490,7 @@ const equip_data = {
             22
         ],
         "jp_name": "100mm二連装九八式高角砲改",
-        "cn_name": "127m双联100mm98式高射炮改m单装炮",
+        "cn_name": "双联100mm98式高射炮改m单装炮",
         "tw_name": "Twin 100mm Type 98 Kai High-Angle Gun Mount",
         "en_name": "Twin 100mm Type 98 Kai High-Angle Gun Mount",
         "equip_limit": 0,
