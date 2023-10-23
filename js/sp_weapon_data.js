@@ -1508,5 +1508,43 @@ const sp_weapon_data = {
         "en_name": "Mini Lebe",
         "cn_name": "莱伯君",
         "tw_name": "Mini Lebe"
+    },
+    "9912420": {
+        "id": 9912420,
+        "icon": "12420",
+        "eq_reload": [],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 30501,
+        "type": 6,
+        "jp_name": "七五三の魔除け",
+        "en_name": "Shichi-Go-San Exorcism Bells",
+        "cn_name": "除厄七五三",
+        "tw_name": "Shichi-Go-San Exorcism Bells"
+    },
+    "9912400": {
+        "id": 9912400,
+        "icon": "12400",
+        "eq_reload": [
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            10
+        ],
+        "rarity": 4,
+        "tech": 0,
+        "limit": 20704,
+        "type": 7,
+        "jp_name": "空も海も美しく",
+        "en_name": "Splendid as Sky and Sea",
+        "cn_name": "于碧海晴空下闪耀",
+        "tw_name": "Splendid as Sky and Sea"
     }
 };

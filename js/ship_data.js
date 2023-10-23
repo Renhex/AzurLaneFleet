@@ -33548,6 +33548,58 @@ const ship_data = {
         ],
         "date": "2017年05月25日"
     },
+    "102310": {
+        "nationality": 1,
+        "type": 2,
+        "base_list": [
+            2,
+            1,
+            1
+        ],
+        "id": 102314,
+        "skin_id": 102310,
+        "english_name": "USS Houston II",
+        "star": 6,
+        "rarity": 5,
+        "retro": 0,
+        "uni_id": "102310",
+        "painting": "102310",
+        "jp_name": "ヒューストンⅡ",
+        "en_name": "Houston II",
+        "cn_name": "休斯敦II",
+        "tw_name": "Houston II",
+        "equip_1": [
+            2
+        ],
+        "equip_2": [
+            1
+        ],
+        "equip_3": [
+            6
+        ],
+        "equip_4": [
+            10,
+            14
+
+        ],
+        "equip_5": [
+            10,
+            14
+        ],
+        "eq_p": [
+            1.3,
+            0.75,
+            1.2
+        ],
+        "reload": [
+            71,
+            496,
+            0,
+            53,
+            0
+        ],
+        "date": "October 19th 2023"
+    },
     "103050": {
         "nationality": 1,
         "type": 3,

@@ -21038,5 +21038,20 @@ const equip_data = {
             1143
 
         ]
+    },
+    "150020": {
+        "nationality": 96,
+        "type": 10,
+        "rarity": 4,
+        "tech": 0,
+        "id": 150020,
+        "icon": "150020",
+        "ship_type_forbidden": [],
+        "jp_name": "テンペスタ・フラッグ",
+        "cn_name": "飓风旗",
+        "tw_name": "Tempesta Banner",
+        "en_name": "Tempesta Banner",
+        "equip_limit": 0,
+        "cd": []
     }
 };
