@@ -21053,5 +21053,20 @@ const equip_data = {
         "en_name": "Tempesta Banner",
         "equip_limit": 0,
         "cd": []
+    },
+    "150000": {
+        "nationality": 3,
+        "type": 10,
+        "rarity": 4,
+        "tech": 0,
+        "id": 150000,
+        "icon": "150000",
+        "ship_type_forbidden": [],
+        "jp_name": "刺繍の錦嚢",
+        "cn_name": "刺绣锦囊",
+        "tw_name": "Embroidered Charm Pouch",
+        "en_name": "Embroidered Charm Pouch",
+        "equip_limit": 0,
+        "cd": []
     }
 };
