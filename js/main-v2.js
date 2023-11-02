@@ -151,6 +151,7 @@ const
         { id: 7, cn: "北方聯合", en: "Northern Parliament", jp: "北連", code: "SN" },
         { id: 8, cn: "自由鳶尾", en: "Iris Libre", jp: "アイリス", code: "FFNF" },
         { id: 9, cn: "維希教廷", en: "Vichya Dominion", jp: "ヴィシア", code: "MNF" },
+        { id: 96, cn: "飓风", en: "Tempesta", jp: "テンペスタ", code: "MOT"},
         { id: 100, cn: "連動", en: "Collab", jp: "コラボ", code: "Collab" },
         { id: 0, cn: "其他", en: "Other", jp: "その他", code: "Other" },
     ],
@@ -4252,13 +4253,13 @@ const
     posTable = { BS: { 0: "2", 1: "1", 2: "3" }, F: { 0: "3", 1: "2", 2: "1" }, },
     posTable_r = { BS: { 2: "0", 1: "1", 3: "2" }, F: { 3: "0", 2: "1", 1: "2" }, },
     // ship
-    type_front = new Set([1, 2, 3, 18, 19, 20,]),
-    type_back = new Set([4, 5, 6, 7, 10, 12, 13, 20,]),
+    type_front = new Set([1, 2, 3, 18, 19, 20, 23]),
+    type_back = new Set([4, 5, 6, 7, 10, 12, 13, 20, 24]),
     type_sub = new Set([8, 17, 22]),
-    other_nation = new Set([96, 97, 98]), // 97:META, 98:Bulin, 100+:eq_collab_nation
+    other_nation = new Set([97, 98]), // 97:META, 98:Bulin, 100+:eq_collab_nation
     collab_nation = new Set([101, 103, 104, 105, 106, 107, 108, 109, 110]),
-    other_front = new Set([19, 20]),
-    other_back = new Set([10, 20]),
+    other_front = new Set([19, 20, 23]),
+    other_back = new Set([10, 20, 24]),
     other_sub = new Set([0, 22]),
     // equip
     addQuantityList = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 20]),
@@ -4278,7 +4279,8 @@ const
         6: [4, 5, 10,],
         7: [6, 7,],
         8: [8, 17,],
-        9: [2, 3]
+        9: [2, 3],
+        10: [22, 23, 24]
     },
     // db
     db_name = "image_cache",
