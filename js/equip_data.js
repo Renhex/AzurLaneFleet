@@ -12219,7 +12219,7 @@ const equip_data = {
     tech: 0,
     id: 33120,
     icon: "33120",
-    ship_type_forbidden: [22, 23, 24],
+    ship_type_forbidden: [8, 17, 22, 23, 24],
     jp_name: "試作型203mm/55三連装砲",
     cn_name: "试作型203mm/55三连装主炮",
     tw_name: "Prototype Triple 203mm/55 Main Gun Mount",
