@@ -19136,7 +19136,7 @@ const ship_data = {
   104010: {
     nationality: 1,
     type: 4,
-    base_list: [1, 3, 1],
+    base_list: [3, 3, 1],
     id: 104014,
     skin_id: 104010,
     english_name: "USS Constellation",
