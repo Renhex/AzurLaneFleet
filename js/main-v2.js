@@ -2614,7 +2614,9 @@ const settingKey = {
             if (id != "") {
               let eq_data = i < 6 ? equip_data[id] : sp_weapon_data[id];
               if (eq_data.eq_reload) {
-                //console.log(`${eq.tw} level:${lv} reload:${eq_data.eq_reload[lv]}`);
+                // console.log(
+                //   `${eq.tw} level:${lv} reload:${eq_data.eq_reload[lv]}`
+                // );
                 if (eq_data.eq_reload.length > 0)
                   eq_reload += eq_data.eq_reload[lv];
               }
@@ -2727,7 +2729,7 @@ const settingKey = {
           ship = ship_item[0].property,
           ship_reload;
         if (!ship.id) return; //empty ship
-        if (type == "ship") {
+        if (type == "ship" || type == "equip" || type == "spweapon") {
           ship.reload_cache = this.getShipReload({ ...ship, ship_item });
           ship_reload = ship.reload_cache;
           // update ship reload & all equip cd
