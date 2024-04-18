@@ -12703,4 +12703,22 @@ const equip_data = {
     equip_limit: 0,
     cd: [],
   },
+  150300: {
+    nationality: 3,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150300,
+    icon: "150300",
+    ship_type_forbidden: [
+      1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23, 24,
+    ],
+    jp_name: "残された時の残響",
+    cn_name: "被定格的彼岸花",
+    en_name: "Echoes of Relinquished Time",
+    tw_name: "Echoes of Relinquished Time",
+    equip_limit: 0,
+    cd: [],
+  },
 };
