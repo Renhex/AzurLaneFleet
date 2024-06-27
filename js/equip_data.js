@@ -12864,4 +12864,24 @@ const equip_data = {
     equip_limit: 0,
     cd: [104, 101, 98, 94, 92, 88, 86, 83, 80, 76, 73, 73],
   },
+  45160: {
+    nationality: 4,
+    type: 5,
+    rarity: 5,
+    tech: 0,
+    id: 45160,
+    icon: "45160",
+    ship_type_forbidden: [
+      5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 22, 23, 24,
+    ],
+    jp_name: "533mm四連装磁気魚雷改",
+    cn_name: "四联装533mm磁性鱼雷改",
+    en_name: "533mm Improved Quadruple Magnetic Torpedo Mount",
+    tw_name: "533mm Improved Quadruple Magnetic Torpedo Mount",
+    equip_limit: 0,
+    cd: [
+      4830, 4730, 4630, 4530, 4430, 4330, 4230, 4130, 4030, 3930, 3830, 3830,
+      3830, 3830,
+    ],
+  },
 };
