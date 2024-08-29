@@ -20,6 +20,7 @@ let slot_sp_data = {
       f6f: [17340, 17320, 17300],
       model1907: [85420],
       marco: [699010, ""],
+      shimanto: [399060, ""],
       taihou_sp: [10340],
       hood_sp: [10520],
     },
@@ -230,11 +231,33 @@ let slot_sp_data = {
       p_diff: 10,
     },
     399060: {
-      type: 1,
-      slot: [1],
-      check: "id",
-      list: [32360],
-      p_diff: [0, 0, 30],
-
+      type: 3,
+      slot: [1, 2, 3],
+      cons: [
+        {
+          type: 2,
+          slot: ["front_1"],
+          check: "id",
+          list: slot_sp_data.id.shimanto,
+          p_diff: [15, 0, 30],
+          NOT_self: 0,
+        },
+        {
+          type: 2,
+          slot: ["front_2"],
+          check: "id",
+          list: slot_sp_data.id.shimanto,
+          p_diff: [15, 0, 30],
+          NOT_self: 0,
+        },
+        {
+          type: 2,
+          slot: ["front_3"],
+          check: "id",
+          list: slot_sp_data.id.shimanto,
+          p_diff: [15, 0, 30],
+          NOT_self: 0,
+        },
+      ],
     },
   };
