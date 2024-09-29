@@ -23,6 +23,7 @@ let slot_sp_data = {
       shimanto: [399060, ""],
       taihou_sp: [10340],
       hood_sp: [10520],
+      tashkent_sp: [9913280],
     },
   },
   skill_ship_slot = {
@@ -83,11 +84,24 @@ let slot_sp_data = {
       p_diff: 30,
     },
     701040: {
-      type: 1,
+      type: 3,
       slot: [1],
-      check: "nationality",
-      list: slot_sp_data.nation.sn,
-      p_diff: 10,
+      cons: [
+        {
+          type: 1,
+          slot: [1],
+          check: "nationality",
+          list: slot_sp_data.nation.sn,
+          p_diff: 10,
+        },
+        {
+          type: 1,
+          slot: [6],
+          check: "id",
+          list: slot_sp_data.id.tashkent_sp,
+          p_diff: [10, 0, 0],
+        },
+      ],
     },
     705010: {
       type: 1,
