@@ -1935,5 +1935,31 @@ const sp_weapon_data = {
     cn_name: '胜利者之钟',
     en_name: 'Victory Bell',
     tw_name: 'Victory Bell'
+  },
+  9913400: {
+    id: 9913400,
+    icon: '13400',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 29901,
+    type: 2,
+    jp_name: 'ネプチューン・トライデント',
+    cn_name: '海神三叉戟',
+    en_name: "Neptune's Trident",
+    tw_name: "Neptune's Trident"
+  },
+  9913420: {
+    id: 9913420,
+    icon: '13420',
+    eq_reload: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    rarity: 4,
+    tech: 0,
+    limit: 30113,
+    type: 1,
+    jp_name: 'ぶつかり注意！',
+    cn_name: '刹车请注意！',
+    en_name: 'Watch Your Head!',
+    tw_name: 'Watch Your Head!'
   }
 }
