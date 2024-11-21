@@ -2039,5 +2039,18 @@ const sp_weapon_data = {
     cn_name: '纪律旗帜',
     en_name: 'Banner of Order',
     tw_name: 'Banner of Order'
+  },
+  999000: {
+    id: 999000,
+    icon: '9000',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10002,
+    type: 1,
+    jp_name: 'スーパーレインボー1号',
+    cn_name: '超级彩虹锤1号',
+    en_name: 'Ultra Rainbow Hammer',
+    tw_name: 'Ultra Rainbow Hammer'
   }
 }
