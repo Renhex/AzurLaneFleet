@@ -1961,5 +1961,83 @@ const sp_weapon_data = {
     cn_name: '刹车请注意！',
     en_name: 'Watch Your Head!',
     tw_name: 'Watch Your Head!'
+  },
+  9913660: {
+    id: 9913660,
+    icon: '13660',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1110001,
+    type: 4,
+    jp_name: '万能工具',
+    cn_name: '万能工具',
+    en_name: 'Omnitool',
+    tw_name: 'Omnitool'
+  },
+  9913680: {
+    id: 9913680,
+    icon: '13680',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1110002,
+    type: 1,
+    jp_name: 'アニマルアタック',
+    cn_name: '突进雪友',
+    en_name: 'Animal Attack',
+    tw_name: 'Animal Attack'
+  },
+  9913700: {
+    id: 9913700,
+    icon: '13700',
+    eq_reload: [11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    rarity: 4,
+    tech: 0,
+    limit: 1110003,
+    type: 2,
+    jp_name: 'バーストフラワー',
+    cn_name: '爆裂之花',
+    en_name: 'Burst Flower',
+    tw_name: 'Burst Flower'
+  },
+  9913720: {
+    id: 9913720,
+    icon: '13720',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1110004,
+    type: 6,
+    jp_name: 'ゴールデンスラッシュ',
+    cn_name: '金色重击',
+    en_name: 'Golden Slash',
+    tw_name: 'Golden Slash'
+  },
+  9913740: {
+    id: 9913740,
+    icon: '13740',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1110005,
+    type: 6,
+    jp_name: '緊急消火器',
+    cn_name: '紧急维护罐',
+    en_name: 'Emergency Fire Extinguisher',
+    tw_name: 'Emergency Fire Extinguisher'
+  },
+  9913760: {
+    id: 9913760,
+    icon: '13760',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1110006,
+    type: 7,
+    jp_name: '紀律の旗',
+    cn_name: '纪律旗帜',
+    en_name: 'Banner of Order',
+    tw_name: 'Banner of Order'
   }
 }
