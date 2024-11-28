@@ -2105,14 +2105,7 @@ const settingKey = {
                     )
                   }
                   if (i == 6) {
-                    lv_data.push(
-                      app
-                        .spweaponLevelLimit(
-                          sp_weapon_data[item.property.id].max,
-                          lv
-                        )
-                        .toString(16)
-                    )
+                    lv_data.push(app.spweaponLevelLimit(lv).toString(16))
                   }
                 }
               })
@@ -2283,10 +2276,7 @@ const settingKey = {
         function set_sp_weapon ({ ship_item, app_item, level }) {
           if (!level && isNaN(level)) level = app._level_default.spweapon
           app.setSpWeapon(ship_item, false, true)
-          app_item.spweapon_level = app.spweaponLevelLimit(
-            sp_weapon_data[app_item.id].max,
-            level
-          )
+          app_item.spweapon_level = app.spweaponLevelLimit(level)
           app_item.is_sp = true
         }
 
@@ -3220,10 +3210,7 @@ const settingKey = {
           )
         }
         if (type == 'spweapon') {
-          item_in_app[`${type}_level`] = this.spweaponLevelLimit(
-            sp_weapon_data[item_in_app.id].max,
-            level_app
-          )
+          item_in_app[`${type}_level`] = this.spweaponLevelLimit(level_app)
         }
         level_slider.value = level_input.value = item_in_app[`${type}_level`]
       }
@@ -3251,10 +3238,7 @@ const settingKey = {
           )
         }
         if (type == 'spweapon') {
-          level_input = this.spweaponLevelLimit(
-            sp_weapon_data[item_in_app.id].max,
-            level_input
-          )
+          level_input = this.spweaponLevelLimit(level_input)
         }
         item_in_app[`${type}_level`] = level_input
         app.util.updateCD({ type, data: [c_fleet, side, c_pos, c_item] })
