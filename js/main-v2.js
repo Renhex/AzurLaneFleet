@@ -1650,6 +1650,7 @@ const settingKey = {
           id: '',
           type: [],
           rarity: '',
+          max: '',
           tw: '',
           en: '',
           cn: '',
@@ -2276,7 +2277,7 @@ const settingKey = {
         function set_sp_weapon ({ ship_item, app_item, level }) {
           if (!level && isNaN(level)) level = app._level_default.spweapon
           app.setSpWeapon(ship_item, false, true)
-          app_item.spweapon_level = app.spweaponLevelLimit(level)
+          app_item.spweapon_level = app.spweaponLevelLimit(app_item.max, level)
           app_item.is_sp = true
         }
 
@@ -3210,7 +3211,10 @@ const settingKey = {
           )
         }
         if (type == 'spweapon') {
-          item_in_app[`${type}_level`] = this.spweaponLevelLimit(level_app)
+          item_in_app[`${type}_level`] = this.spweaponLevelLimit(
+            item_in_app.max,
+            level_app
+          )
         }
         level_slider.value = level_input.value = item_in_app[`${type}_level`]
       }
@@ -3238,7 +3242,7 @@ const settingKey = {
           )
         }
         if (type == 'spweapon') {
-          level_input = this.spweaponLevelLimit(level_input)
+          level_input = this.spweaponLevelLimit(item_in_app.max, level_input)
         }
         item_in_app[`${type}_level`] = level_input
         app.util.updateCD({ type, data: [c_fleet, side, c_pos, c_item] })
@@ -4050,7 +4054,7 @@ const settingKey = {
               )
             if (type == 'spweapon')
               spweapon_text.value = spweapon_slider.value =
-                app.spweaponLevelLimit(equip_text.value)
+                app.spweaponLevelLimit(10, equip_text.value)
             app.setLevel(type, false, false)
           }
         ship_text.addEventListener('change', () => syncText2Slider('ship'))
@@ -4236,6 +4240,7 @@ const settingKey = {
             jp_name: jp,
             type,
             rarity,
+            max,
             limit,
             icon,
             bg = '',
@@ -4253,6 +4258,7 @@ const settingKey = {
               jp,
               type,
               rarity,
+              max,
               limit,
               icon,
               bg,
@@ -5323,6 +5329,7 @@ const maximumFleet = 30,
       'bg',
       'name',
       'rarity',
+      'max',
       'tech',
       'limit'
     ]
