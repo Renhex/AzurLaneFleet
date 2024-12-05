@@ -2210,5 +2210,70 @@ const sp_weapon_data = {
     cn_name: '超级彩虹锤1号',
     en_name: 'Ultra Rainbow Hammer',
     tw_name: 'Ultra Rainbow Hammer'
+  },
+  9913440: {
+    id: 9913440,
+    icon: '13440',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30201,
+    type: 2,
+    jp_name: 'カイゼンツールPROMAX',
+    cn_name: '制作工具PROMAX',
+    en_name: 'Upgrade Tool Pro Max',
+    tw_name: 'Upgrade Tool Pro Max'
+  },
+  9913460: {
+    id: 9913460,
+    icon: '13460',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 49901,
+    type: 4,
+    jp_name: '日常',
+    cn_name: '少女的日用品',
+    en_name: 'Purse of Everyday Items',
+    tw_name: 'Purse of Everyday Items'
+  },
+  9913480: {
+    id: 9913480,
+    icon: '13480',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 89901,
+    type: 4,
+    jp_name: '仲裁の聖槍',
+    cn_name: '仲裁之枪 ',
+    en_name: 'Holy Lance of Judgment',
+    tw_name: 'Holy Lance of Judgment'
+  },
+  9913500: {
+    id: 9913500,
+    icon: '13500',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10602,
+    type: 7,
+    jp_name: 'ワンモア！',
+    cn_name: '再来一球！',
+    en_name: 'One More Ball!',
+    tw_name: 'One More Ball!'
+  },
+  9913520: {
+    id: 9913520,
+    icon: '13520',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 30603,
+    type: 7,
+    jp_name: '絢爛の花簪',
+    cn_name: '绚烂花簪',
+    en_name: 'Resplendent Flower Hairpin',
+    tw_name: 'Resplendent Flower Hairpin'
   }
 }
