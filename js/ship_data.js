@@ -21076,5 +21076,29 @@ const ship_data = {
     equip_5: [10],
     eq_p: [1.2, 1.25, 1.3500000000000001],
     reload: [43.0, 295.0, 0.0, 32.0, 0.0]
+  },
+  9707050: {
+    nationality: 97,
+    type: 7,
+    base_list: [2, 3, 3],
+    id: 9707054,
+    skin_id: 9707050,
+    english_name: 'Taihō.META',
+    star: 6,
+    rarity: 5,
+    retro: 0,
+    uni_id: '9707050',
+    painting: '9707050',
+    jp_name: '大鳳(META)',
+    en_name: 'Taihou META',
+    cn_name: '大凤·META',
+    tw_name: 'Taihou META',
+    equip_1: [7],
+    equip_2: [9],
+    equip_3: [8],
+    equip_4: [10],
+    equip_5: [10],
+    eq_p: [1.2, 1.3, 1.4],
+    reload: [45.0, 315.0, 0.0, 33.0, 0.0]
   }
 }
