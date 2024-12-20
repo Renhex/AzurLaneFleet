@@ -13071,5 +13071,20 @@ const equip_data = {
     tw_name: 'More-y Glory Aura Booster',
     equip_limit: 0,
     cd: []
+  },
+  150580: {
+    nationality: 1,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150580,
+    icon: '150580',
+    ship_type_forbidden: [],
+    jp_name: '絆のハンカチ',
+    cn_name: '孟菲斯之蓝',
+    en_name: 'Precious Handkerchief',
+    tw_name: 'Precious Handkerchief',
+    equip_limit: 0,
+    cd: []
   }
 }
