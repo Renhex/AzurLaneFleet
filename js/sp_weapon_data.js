@@ -2275,5 +2275,31 @@ const sp_weapon_data = {
     cn_name: '绚烂花簪',
     en_name: 'Resplendent Flower Hairpin',
     tw_name: 'Resplendent Flower Hairpin'
+  },
+  9913780: {
+    id: 9913780,
+    icon: '13780',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 50204,
+    type: 2,
+    jp_name: '紫霞絮語',
+    cn_name: '紫霞絮语',
+    en_name: 'Ambrosial Violet Whispers',
+    tw_name: 'Ambrosial Violet Whispers'
+  },
+  9913800: {
+    id: 9913800,
+    icon: '13800',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 50205,
+    type: 2,
+    jp_name: '紅梅軽舞',
+    cn_name: '红梅轻舞 ',
+    en_name: 'Plum-Red Silksteps',
+    tw_name: 'Plum-Red Silksteps'
   }
 }
