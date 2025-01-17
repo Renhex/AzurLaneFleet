@@ -3707,6 +3707,8 @@ const settingKey = {
           return type2() // check target pos ship
         case 3:
           return type3() // multi condition
+        case 4:
+          return type4() // additional condition to check not self
         default:
           return
       }
@@ -3751,6 +3753,8 @@ const settingKey = {
           }
         _pos = getShipPos(_side, _pos) // get real array pos (1,2,3) => (0,1,2)
         if (check == 'id' && _pos != p && !NOT_self) return false // abort when target pos != self
+        if (check == 'type' && _pos == p) return false // abort when checking the same ship
+        if (check == 'nationality' && _pos == p) return false // abort when checking the same ship
         target = fleetData[f][_side][_pos].item[0].property
         target_name = target.tw
         if (check_target(list, target, check, NOT_self)) {
@@ -3758,7 +3762,14 @@ const settingKey = {
             _s.proficiency += p_diff[i]
             _s.style = getColor(p_diff[i])
           })
-          //console.log(`pos[${[f, s, p, i]}]${name}, target[${[f, _side, _pos, 0]}]${target_name}, type2 altered [${oringnal}] + [${p_diff}]`);
+          /*           console.log(
+            `pos[${[f, s, p, i]}]${name}, target[${[
+              f,
+              _side,
+              _pos,
+              0
+            ]}]${target_name}, type2 altered [${oringnal}] + [${p_diff}]`
+          ) */
           return true
         } else {
           return false // no change
@@ -3780,7 +3791,6 @@ const settingKey = {
         if (diff < 0) return 'color: orangered;'
         if (diff == 0) return ''
       }
-
       function getShipPos (side, pos) {
         if (side == 'front') {
           return posTable_r.F[pos]
