@@ -21388,5 +21388,29 @@ const ship_data = {
     equip_5: [10, 14],
     eq_p: [1.5, 1.5, 1],
     reload: [64.0, 445.0, 0.0, 48.0, 20.0]
+  },
+  9703060: {
+    nationality: 97,
+    type: 3,
+    base_list: [1, 2, 1],
+    id: 9703064,
+    skin_id: 9703060,
+    english_name: 'Bolzano.META',
+    star: 5,
+    rarity: 4,
+    retro: 0,
+    uni_id: '9703060',
+    painting: '9703060',
+    jp_name: 'ボルツァーノ(META)',
+    en_name: 'Bolzano META',
+    cn_name: '博尔扎诺·META',
+    tw_name: 'Bolzano META',
+    equip_1: [3],
+    equip_2: [5],
+    equip_3: [6],
+    equip_4: [10],
+    equip_5: [10],
+    eq_p: [1.35, 1.7, 1.0, 0.3],
+    reload: [65.0, 450.0, 0.0, 48.0, 0.0]
   }
 }
