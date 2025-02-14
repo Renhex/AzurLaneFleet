@@ -2301,5 +2301,31 @@ const sp_weapon_data = {
     cn_name: '红梅轻舞 ',
     en_name: 'Plum-Red Silksteps',
     tw_name: 'Plum-Red Silksteps'
+  },
+  9913840: {
+    id: 9913840,
+    icon: '13840',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30312,
+    type: 4,
+    jp_name: '龍奇月輪',
+    cn_name: '龙奇月轮',
+    en_name: 'Ryuuki Full Moon',
+    tw_name: 'Ryuuki Full Moon'
+  },
+  9913820: {
+    id: 9913820,
+    icon: '13820',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10210,
+    type: 2,
+    jp_name: '超粘着MAX',
+    cn_name: '超粘着MAX ',
+    en_name: 'Super Bubblegum Pro Max ',
+    tw_name: 'Super Bubblegum Pro Max '
   }
 }
