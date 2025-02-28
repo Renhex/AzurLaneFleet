@@ -13243,5 +13243,23 @@ const equip_data = {
     tw_name: 'Corona Preferita',
     equip_limit: 0,
     cd: []
+  },
+  96240: {
+    nationality: 6,
+    type: 4,
+    rarity: 6,
+    tech: 0,
+    id: 96240,
+    icon: '56240',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型406mm三連装砲Model1940改',
+    cn_name: '试作型三联装406mm主炮Model1940改',
+    en_name: 'Prototype Triple 406mm Model 1940 (Improved) Main Gun Mount',
+    tw_name: 'Prototype Triple 406mm Model 1940 (Improved) Main Gun Mount',
+    equip_limit: 0,
+    cd: [
+      4578, 4485, 4392, 4299, 4208, 4113, 4021, 3929, 3835, 3743, 3650, 3650,
+      3650, 3650
+    ]
   }
 }
