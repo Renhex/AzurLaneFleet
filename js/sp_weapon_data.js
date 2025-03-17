@@ -2327,5 +2327,70 @@ const sp_weapon_data = {
     cn_name: '超粘着MAX ',
     en_name: 'Super Bubblegum Pro Max ',
     tw_name: 'Super Bubblegum Pro Max '
+  },
+  9913860: {
+    id: 9913860,
+    icon: '13860',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10519,
+    type: 6,
+    jp_name: 'この一箱は重いよ',
+    cn_name: '超重的一箱',
+    en_name: 'This Box is Really Heavy',
+    tw_name: 'This Box is Really Heavy'
+  },
+  9913880: {
+    id: 9913880,
+    icon: '13880',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 20307,
+    type: 4,
+    jp_name: '✛ホワイトローズ・フォース✛',
+    cn_name: '白玫瑰徽章',
+    en_name: 'Order of the White Rose',
+    tw_name: 'Order of the White Rose'
+  },
+  9914000: {
+    id: 9914000,
+    icon: '14000',
+    eq_reload: [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    rarity: 4,
+    tech: 0,
+    limit: 30101,
+    type: 1,
+    jp_name: '長女のチャームポイント',
+    cn_name: '长女的迷人之处',
+    en_name: 'Biggest Girl\u0027s Bonnie Bells',
+    tw_name: 'Biggest Girl\u0027s Bonnie Bells'
+  },
+  9914020: {
+    id: 9914020,
+    icon: '14020',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 40203,
+    type: 2,
+    jp_name: '公私スケジュール',
+    cn_name: '公私日程表',
+    en_name: 'Public-Private Schedule',
+    tw_name: 'Public-Private Schedule'
+  },
+  9914040: {
+    id: 9914040,
+    icon: '14040',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 70505,
+    type: 6,
+    jp_name: 'ヴェリーカヤ',
+    cn_name: '冬日权杖剑',
+    en_name: 'Rime Sword of the Great One',
+    tw_name: 'Rime Sword of the Great One'
   }
 }

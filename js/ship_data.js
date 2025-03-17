@@ -21532,5 +21532,29 @@ const ship_data = {
     equip_5: [10],
     eq_p: [1.35, 2.0, 1.1],
     reload: [57.0, 399.0, 0.0, 43, 0.0]
+  },
+  9707060: {
+    nationality: 97,
+    type: 7,
+    base_list: [3, 3, 2],
+    id: 9707064,
+    skin_id: 9707060,
+    english_name: 'Hornet.META',
+    star: 6,
+    rarity: 5,
+    retro: 0,
+    uni_id: '9707060',
+    painting: '9707060',
+    jp_name: 'ホーネット(META)',
+    en_name: 'Hornet META',
+    cn_name: '大黄蜂·META',
+    tw_name: 'Hornet META',
+    equip_1: [7],
+    equip_2: [9],
+    equip_3: [8],
+    equip_4: [10],
+    equip_5: [10],
+    eq_p: [1.35, 1.25, 1.25],
+    reload: [47.0, 323.0, 0.0, 35, 0.0]
   }
 }
