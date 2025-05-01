@@ -13261,5 +13261,20 @@ const equip_data = {
       4578, 4485, 4392, 4299, 4208, 4113, 4021, 3929, 3835, 3743, 3650, 3650,
       3650, 3650
     ]
+  },
+  150640: {
+    nationality: 11,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150640,
+    icon: '150640',
+    ship_type_forbidden: [],
+    jp_name: 'チューリップの花束',
+    cn_name: '郁金香花束',
+    en_name: 'Bouquet of Tulips',
+    tw_name: 'Bouquet of Tulips',
+    equip_limit: 0,
+    cd: []
   }
 }

@@ -2392,5 +2392,31 @@ const sp_weapon_data = {
     cn_name: '冬日权杖剑',
     en_name: 'Rime Sword of the Great One',
     tw_name: 'Rime Sword of the Great One'
+  },
+  9914060: {
+    id: 9914060,
+    icon: '14060',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 20208,
+    type: 2,
+    jp_name: '愛蔵ソウジ道具',
+    cn_name: '扫除用道具',
+    en_name: 'Cherished Cleaning Equipment',
+    tw_name: 'Cherished Cleaning Equipment'
+  },
+  9914080: {
+    id: 9914080,
+    icon: '14080',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 40806,
+    type: 8,
+    jp_name: '「大ザメ」',
+    cn_name: '“大鱼”',
+    en_name: '"Great Shark"',
+    tw_name: '"Great Shark"'
   }
 }

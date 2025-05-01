@@ -321,6 +321,13 @@ const lan_ship_nation = [
       jp: 'ヴィシア',
       code: 'MNF'
     },
+    {
+      id: 11,
+      cn: '郁金王国',
+      en: 'Kingdom of Tulipa',
+      jp: 'チュリッパ王国',
+      code: 'HNLMS'
+    },
     { id: 96, cn: '飓风', en: 'Tempesta', jp: 'テンペスタ', code: 'MOT' },
     { id: 100, cn: '連動', en: 'Collab', jp: 'コラボ', code: 'Collab' },
     { id: 0, cn: '其他', en: 'Other', jp: 'その他', code: 'Other' }
