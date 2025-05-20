@@ -2418,5 +2418,31 @@ const sp_weapon_data = {
     cn_name: '“大鱼”',
     en_name: '"Great Shark"',
     tw_name: '"Great Shark"'
+  },
+  9914100: {
+    id: 9914100,
+    icon: '14100',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 10316,
+    type: 4,
+    jp_name: 'エースの一枚',
+    cn_name: '一张王牌',
+    en_name: 'The Ace\u0027s Card',
+    tw_name: 'The Ace\u0027s Card'
+  },
+  9914120: {
+    id: 9914120,
+    icon: '14120',
+    eq_reload: [8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20],
+    rarity: 4,
+    tech: 0,
+    limit: 70501,
+    type: 6,
+    jp_name: '昨日、または一昨日の夜',
+    cn_name: '属于夜晚的余兴',
+    en_name: 'Yesterday Or the Night Before That',
+    tw_name: 'Yesterday Or the Night Before That'
   }
 }

@@ -13276,5 +13276,38 @@ const equip_data = {
     tw_name: 'Bouquet of Tulips',
     equip_limit: 0,
     cd: []
+  },
+  150660: {
+    nationality: 0,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150660,
+    icon: '150660',
+    ship_type_forbidden: [],
+    jp_name: 'あたしの大事なクジラ',
+    cn_name: '我的宝贝鲸鱼',
+    en_name: 'My Precious Whale',
+    tw_name: 'My Precious Whale',
+    equip_limit: 0,
+    cd: []
+  },
+  24400: {
+    nationality: 2,
+    type: 4,
+    rarity: 6,
+    tech: 0,
+    id: 24400,
+    icon: '24400',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型406mm三連装砲Mk.II',
+    cn_name: '试作型三联装406mm主炮Mk.II',
+    en_name: 'Prototype Triple 406mm Mk.II Main Gun Mount',
+    tw_name: 'Prototype Triple 406mm Mk.II Main Gun Mount',
+    equip_limit: 0,
+    cd: [
+      4413, 4323, 4232, 4142, 4053, 3961, 3871, 3782, 3690, 3601, 3510, 3510,
+      3510, 3510
+    ]
   }
 }
