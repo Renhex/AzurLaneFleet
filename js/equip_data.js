@@ -13309,5 +13309,98 @@ const equip_data = {
       4413, 4323, 4232, 4142, 4053, 3961, 3871, 3782, 3690, 3601, 3510, 3510,
       3510, 3510
     ]
+  },
+  91340: {
+    nationality: 8,
+    type: 9,
+    rarity: 5,
+    tech: 0,
+    id: 91340,
+    icon: '51340',
+    ship_type_forbidden: [10, 22, 23, 24],
+    jp_name: 'LN.401',
+    cn_name: 'LN.401',
+    en_name: 'LN.401',
+    tw_name: 'LN.401',
+    equip_limit: 0,
+    cd: [
+      2024, 1984, 1944, 1904, 1864, 1824, 1784, 1744, 1704, 1664, 1624, 1624,
+      1624, 1624
+    ]
+  },
+  31300: {
+    nationality: 3,
+    type: 1,
+    rarity: 5,
+    tech: 0,
+    id: 31300,
+    icon: '31300',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '127mm連装砲(D型)',
+    cn_name: '127mm连装炮（D型）',
+    en_name: 'Twin 127mm Gun Mount (Type D)',
+    tw_name: 'Twin 127mm Gun Mount (Type D)',
+    equip_limit: 0,
+    cd: [361, 355, 349, 343, 337, 331, 325, 319, 313, 307, 301, 301, 301, 301]
+  },
+  91360: {
+    nationality: 8,
+    type: 8,
+    rarity: 4,
+    tech: 0,
+    id: 91360,
+    icon: '51360',
+    ship_type_forbidden: [10, 22, 23, 24],
+    jp_name: 'Late.299',
+    cn_name: 'Late.299',
+    en_name: 'Late.299',
+    tw_name: 'Late.299',
+    equip_limit: 0,
+    cd: [2406, 2373, 2339, 2306, 2273, 2240, 2207, 2174, 2141, 2108, 2075, 2075]
+  },
+  91320: {
+    nationality: 8,
+    type: 9,
+    rarity: 4,
+    tech: 0,
+    id: 91320,
+    icon: '51320',
+    ship_type_forbidden: [10, 22, 23, 24],
+    jp_name: 'V-156-F',
+    cn_name: 'V-156-F',
+    en_name: 'V-156-F',
+    tw_name: 'V-156-F',
+    equip_limit: 0,
+    cd: [1970, 1945, 1920, 1895, 1870, 1845, 1820, 1795, 1770, 1745, 1720, 1720]
+  },
+  91380: {
+    nationality: 8,
+    type: 7,
+    rarity: 3,
+    tech: 0,
+    id: 91380,
+    icon: '51380',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: 'LGL.32',
+    cn_name: 'LGL.32',
+    en_name: 'LGL.32',
+    tw_name: 'LGL.32',
+    equip_limit: 0,
+    cd: [1834, 1804, 1774, 1744, 1714, 1684, 1654, 1654]
+  },
+  91300: {
+    nationality: 8,
+    type: 8,
+    rarity: 3,
+    tech: 0,
+    id: 91300,
+    icon: '51300',
+    ship_type_forbidden: [10, 22, 23, 24],
+    jp_name: 'PL.10',
+    cn_name: 'PL.10',
+    en_name: 'PL.10',
+    tw_name: 'PL.10',
+    equip_limit: 0,
+    cd: [2210, 2180, 2150, 2120, 2090, 2060, 2030, 2030]
   }
 }

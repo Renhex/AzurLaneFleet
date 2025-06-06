@@ -2444,5 +2444,31 @@ const sp_weapon_data = {
     cn_name: '属于夜晚的余兴',
     en_name: 'Yesterday Or the Night Before That',
     tw_name: 'Yesterday Or the Night Before That'
+  },
+  9914240: {
+    id: 9914240,
+    icon: '14240',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1120001,
+    type: 6,
+    jp_name: 'ロックカノン',
+    cn_name: 'Rock Cannon',
+    en_name: 'Rock Cannon',
+    tw_name: 'Rock Cannon'
+  },
+  9914260: {
+    id: 9914260,
+    icon: '14260',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1120002,
+    type: 7,
+    jp_name: 'デッドサイズ',
+    cn_name: 'Dead Scythe',
+    en_name: 'Dead Scythe',
+    tw_name: 'Dead Scythe'
   }
 }
