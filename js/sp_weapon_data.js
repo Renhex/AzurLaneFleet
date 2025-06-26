@@ -2470,5 +2470,70 @@ const sp_weapon_data = {
     cn_name: 'Dead Scythe',
     en_name: 'Dead Scythe',
     tw_name: 'Dead Scythe'
+  },
+  9914220: {
+    id: 9914220,
+    icon: '14220',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 40703,
+    type: 7,
+    jp_name: '軽晷針白兵儀典艤装LS',
+    cn_name: '轻冕针近战仪式舰装LS',
+    en_name: 'The Punctualist\u0027s Ceremonial Needle',
+    tw_name: 'The Punctualist\u0027s Ceremonial Needle'
+  },
+  9914200: {
+    id: 9914200,
+    icon: '14200',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30314,
+    type: 4,
+    jp_name: '岩清水仙龍真言鋒',
+    cn_name: '岩清水仙龙真言锋',
+    en_name: 'Hermit Dragon of Iwashimizu\u0027s Shingon Blade',
+    tw_name: 'Hermit Dragon of Iwashimizu\u0027s Shingon Blade'
+  },
+  9914160: {
+    id: 9914160,
+    icon: '14160',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 20502,
+    type: 6,
+    jp_name: 'オールドレディの王剣',
+    cn_name: '老女士的王家之剑',
+    en_name: 'Old Lady\u0027s Royal Sword',
+    tw_name: 'Old Lady\u0027s Royal Sword'
+  },
+  9914140: {
+    id: 9914140,
+    icon: '14140',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10213,
+    type: 2,
+    jp_name: 'ラッキールー',
+    cn_name: '“Lucky Lou”',
+    en_name: 'Lucky Lou',
+    tw_name: 'Lucky Lou'
+  },
+  9914180: {
+    id: 9914180,
+    icon: '14180',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 20116,
+    type: 1,
+    jp_name: '堅くて柔らかい',
+    cn_name: '坚毅而温柔',
+    en_name: 'Hard and Soft',
+    tw_name: 'Hard and Soft'
   }
 }
