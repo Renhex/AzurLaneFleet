@@ -13402,5 +13402,107 @@ const equip_data = {
     tw_name: 'PL.10',
     equip_limit: 0,
     cd: [2210, 2180, 2150, 2120, 2090, 2060, 2030, 2030]
+  },
+  14480: {
+    nationality: 1,
+    type: 4,
+    rarity: 5,
+    tech: 0,
+    id: 14480,
+    icon: '14480',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型406mm/45三連装砲MK7',
+    cn_name: '试作型三联装406mm/45主炮Mk7',
+    en_name: 'Prototype Triple 406mm/45 MK7 Main Gun Mount',
+    tw_name: 'Prototype Triple 406mm/45 MK7 Main Gun Mount',
+    equip_limit: 0,
+    cd: [
+      5381, 5294, 5207, 5120, 5033, 4946, 4859, 4772, 4685, 4598, 4511, 4511,
+      4511, 4511
+    ]
+  },
+  44320: {
+    nationality: 4,
+    type: 4,
+    rarity: 6,
+    tech: 0,
+    id: 44320,
+    icon: '44320',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型305mm四連装砲SKC39',
+    cn_name: '试作型四联装305mmSKC39主炮',
+    en_name: 'Prototype Quadruple 305mm SKC39 Main Gun Mount',
+    tw_name: 'Prototype Quadruple 305mm SKC39 Main Gun Mount',
+    equip_limit: 0,
+    cd: [
+      4232, 4156, 4081, 4007, 3932, 3856, 3780, 3705, 3630, 3556, 3480, 3480,
+      3480, 3480
+    ]
+  },
+  44420: {
+    nationality: 11,
+    type: 11,
+    rarity: 5,
+    tech: 0,
+    id: 44420,
+    icon: '44420',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型283mm/54.5三連装砲',
+    cn_name: '试作型三联装283mm/54.5主炮',
+    en_name: 'Prototype Triple 283mm/54.5 Main Gun Mount',
+    tw_name: 'Prototype Triple 283mm/54.5 Main Gun Mount',
+    equip_limit: 0,
+    cd: [
+      1553, 1518, 1483, 1448, 1413, 1378, 1343, 1308, 1273, 1238, 1203, 1203,
+      1203, 1203
+    ]
+  },
+  85640: {
+    nationality: 7,
+    type: 2,
+    rarity: 5,
+    tech: 0,
+    id: 85640,
+    icon: '85640',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型180mm三連装砲B-1-P Model1932改',
+    cn_name: '试作型B-1-P 三联装180mm主炮Model1932改',
+    en_name: 'Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount',
+    tw_name: 'Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount',
+    equip_limit: 0,
+    cd: [586, 570, 564, 548, 542, 526, 520, 514, 508, 502, 496, 496, 496, 496]
+  },
+  96260: {
+    nationality: 6,
+    type: 6,
+    rarity: 5,
+    tech: 0,
+    id: 96260,
+    icon: '56260',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型20mmScotti六連装機関砲Model1941',
+    cn_name: '试作型六联装Scotti20mm机炮Model1941',
+    en_name: 'Prototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun',
+    tw_name: 'Prototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun',
+    equip_limit: 0,
+    cd: [181, 180, 178, 176, 174, 171, 168, 164, 160, 155, 150, 150, 150, 150]
+  },
+  96280: {
+    nationality: 6,
+    type: 5,
+    rarity: 5,
+    tech: 0,
+    id: 96280,
+    icon: '56280',
+    ship_type_forbidden: [22, 23, 24],
+    jp_name: '試作型533mm四連装魚雷Si 270',
+    cn_name: '试作型四联装533毫米鱼雷Si 270',
+    en_name: 'Prototype Quadruple 533mm Si 270 Torpedo Mount',
+    tw_name: 'Prototype Quadruple 533mm Si 270 Torpedo Mount',
+    equip_limit: 0,
+    cd: [
+      3807, 3742, 3677, 3612, 3547, 3482, 3417, 3352, 3287, 3222, 3157, 3157,
+      3157, 3157
+    ]
   }
 }

@@ -2535,5 +2535,31 @@ const sp_weapon_data = {
     cn_name: '坚毅而温柔',
     en_name: 'Hard and Soft',
     tw_name: 'Hard and Soft'
+  },
+  9914280: {
+    id: 9914280,
+    icon: '14280',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 30705,
+    type: 7,
+    jp_name: '千鹤唳',
+    cn_name: '千鹤唳',
+    en_name: 'Call of a Thousand Cranes',
+    tw_name: 'Call of a Thousand Cranes'
+  },
+  9914300: {
+    id: 9914300,
+    icon: '14300',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 70102,
+    type: 1,
+    jp_name: 'クローリクセット',
+    cn_name: '“兔兔”套装',
+    en_name: 'Królik and Canteen',
+    tw_name: 'Królik and Canteen'
   }
 }
