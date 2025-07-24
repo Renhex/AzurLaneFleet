@@ -2561,5 +2561,57 @@ const sp_weapon_data = {
     cn_name: '“兔兔”套装',
     en_name: 'Królik and Canteen',
     tw_name: 'Królik and Canteen'
+  },
+  9914320: {
+    id: 9914320,
+    icon: '14320',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1130001,
+    type: 7,
+    jp_name: 'エフェメラルレコード',
+    cn_name: '刹那追忆',
+    en_name: 'Ephemeral Record',
+    tw_name: 'Ephemeral Record'
+  },
+  9914340: {
+    id: 9914340,
+    icon: '14340',
+    eq_reload: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    rarity: 4,
+    tech: 0,
+    limit: 1130002,
+    type: 2,
+    jp_name: '秘槍トリアイナ',
+    cn_name: '秘枪三叉戟',
+    en_name: 'Secret Triaina',
+    tw_name: 'Secret Triaina'
+  },
+  9914360: {
+    id: 9914360,
+    icon: '14360',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 1130003,
+    type: 6,
+    jp_name: 'ハントレス',
+    cn_name: '女猎人 ',
+    en_name: 'Huntress',
+    tw_name: 'Huntress'
+  },
+  9914380: {
+    id: 9914380,
+    icon: '14380',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1130004,
+    type: 1,
+    jp_name: '黄泉之蟷螂',
+    cn_name: '黄泉之螳螂',
+    en_name: 'Hellion Mantis',
+    tw_name: 'Hellion Mantis'
   }
 }
