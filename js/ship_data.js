@@ -22352,7 +22352,7 @@ const ship_data = {
   9704060: {
     nationality: 97,
     type: 4,
-    base_list: [3, 3, 1],
+    base_list: [2, 3, 1],
     id: 9704064,
     skin_id: 9704060,
     english_name: 'Dunkerque.META',
