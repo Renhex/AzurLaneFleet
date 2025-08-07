@@ -2613,5 +2613,31 @@ const sp_weapon_data = {
     cn_name: '黄泉之螳螂',
     en_name: 'Hellion Mantis',
     tw_name: 'Hellion Mantis'
+  },
+  9914440: {
+    id: 9914440,
+    icon: '14440',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 40301,
+    type: 4,
+    jp_name: 'tunken der Liebe',
+    cn_name: 'tunken der Liebe',
+    en_name: 'Tunken der Liebe',
+    tw_name: 'Tunken der Liebe'
+  },
+  9914420: {
+    id: 9914420,
+    icon: '14420',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 60201,
+    type: 2,
+    jp_name: '探求者の証',
+    cn_name: '探索者的证明',
+    en_name: "Pursuer's Proof",
+    tw_name: "Pursuer's Proof"
   }
 }
