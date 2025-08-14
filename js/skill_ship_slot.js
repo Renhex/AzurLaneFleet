@@ -17,6 +17,7 @@ let slot_sp_data = {
       rn: [6],
       sn: [7],
       de: [5],
+      uss_french: [1, 8, 9],
       no_ijn: [1, 2, 4, 5, 6, 7, 8, 9]
     },
     id: {
@@ -334,11 +335,24 @@ let slot_sp_data = {
       ]
     },
     806010: {
-      type: 1,
-      slot: [1],
-      check: 'nationality',
-      list: slot_sp_data.nation.uss,
-      p_diff: [15, 15]
+      type: 3,
+      slot: [1, 2, 3],
+      cons: [
+        {
+          type: 1,
+          slot: [1],
+          check: 'nationality',
+          list: slot_sp_data.nation.uss_french,
+          p_diff: [15, 15]
+        },
+        {
+          type: 1,
+          slot: [2],
+          check: 'nationality',
+          list: slot_sp_data.nation.uss_french,
+          p_diff: [15, 15]
+        }
+      ]
     },
     801050: {
       type: 3,
