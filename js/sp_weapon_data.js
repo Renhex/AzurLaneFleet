@@ -2639,5 +2639,70 @@ const sp_weapon_data = {
     cn_name: '探索者的证明',
     en_name: "Pursuer's Proof",
     tw_name: "Pursuer's Proof"
+  },
+  9914460: {
+    id: 9914460,
+    icon: '14460',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30116,
+    type: 1,
+    jp_name: '高貴で幸運で無敵なのだ',
+    cn_name: '高贵！幸运！无敌！',
+    en_name: 'Noble, Lucky, and Invincible',
+    tw_name: 'Noble, Lucky, and Invincible'
+  },
+  9914480: {
+    id: 9914480,
+    icon: '14480',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 10705,
+    type: 7,
+    jp_name: '自由を顕す奇跡',
+    cn_name: '象征着自由的奇迹',
+    en_name: 'The Miracle That Symbolizes Freedom',
+    tw_name: 'The Miracle That Symbolizes Freedom'
+  },
+  9914500: {
+    id: 9914500,
+    icon: '14500',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 40135,
+    type: 1,
+    jp_name: 'アイドルの必殺技',
+    cn_name: '偶像的必杀技',
+    en_name: 'The Stage is Mine',
+    tw_name: 'The Stage is Mine'
+  },
+  9914520: {
+    id: 9914520,
+    icon: '14520',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 80102,
+    type: 1,
+    jp_name: '見習い騎士のレイピア',
+    cn_name: '见习骑士的佩剑',
+    en_name: "Squire's Rapier",
+    tw_name: "Squire's Rapier"
+  },
+  9914540: {
+    id: 9914540,
+    icon: '14540',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 29902,
+    type: 6,
+    jp_name: 'モナークの誓い',
+    cn_name: '君主之誓 ',
+    en_name: "Monarch's Pledge",
+    tw_name: "Monarch's Pledge"
   }
 }

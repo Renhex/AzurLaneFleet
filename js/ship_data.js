@@ -22520,5 +22520,29 @@ const ship_data = {
     equip_5: [10],
     eq_p: [1.45, 1.35, 1.3],
     reload: [48.0, 333.0, 0.0, 36.0, 20.0]
+  },
+  9701090: {
+    nationality: 97,
+    type: 1,
+    base_list: [2, 1, 1],
+    id: 9701094,
+    skin_id: 9701090,
+    english_name: 'Yūdachi.META',
+    star: 6,
+    rarity: 5,
+    retro: 0,
+    uni_id: '9701090',
+    painting: 'xili_alter',
+    jp_name: '夕立(META)',
+    en_name: 'Yuudachi META',
+    cn_name: '夕立·META',
+    tw_name: 'Yuudachi META',
+    equip_1: [1],
+    equip_2: [5],
+    equip_3: [6],
+    equip_4: [10, 14],
+    equip_5: [10, 14],
+    eq_p: [1.0, 1.55, 0.84999999999999998],
+    reload: [83.0, 577.0, 0.0, 62.0, 0.0]
   }
 }

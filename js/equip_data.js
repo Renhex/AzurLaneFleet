@@ -13609,5 +13609,20 @@ const equip_data = {
     tw_name: 'Flammi',
     equip_limit: 0,
     cd: []
+  },
+  150820: {
+    nationality: 3,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150820,
+    icon: '150820',
+    ship_type_forbidden: [],
+    jp_name: '重桜の招待状',
+    cn_name: '重樱的邀请函',
+    en_name: 'Sakuran Summons',
+    tw_name: 'Sakuran Summons',
+    equip_limit: 0,
+    cd: []
   }
 }
