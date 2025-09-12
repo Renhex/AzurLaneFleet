@@ -13624,5 +13624,23 @@ const equip_data = {
     tw_name: 'Sakuran Summons',
     equip_limit: 0,
     cd: []
+  },
+  38260: {
+    nationality: 3,
+    type: 8,
+    rarity: 5,
+    tech: 0,
+    id: 38260,
+    icon: '38260',
+    ship_type_forbidden: [10, 22, 23, 24],
+    jp_name: '流星改',
+    cn_name: '流星改',
+    en_name: 'Ryusei Kai',
+    tw_name: 'Ryusei Kai',
+    equip_limit: 0,
+    cd: [
+      2070, 2035, 2000, 1965, 1930, 1895, 1860, 1825, 1790, 1755, 1710, 1710,
+      1710, 1710
+    ]
   }
 }

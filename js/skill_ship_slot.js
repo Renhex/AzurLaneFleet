@@ -4,7 +4,8 @@ let slot_sp_data = {
       cb: [11],
       main_gun: [1, 2, 3, 4, 11],
       cl_gun: [2],
-      aa: [6]
+      aa: [6],
+      tb: [8]
     },
     hulls: {
       cvs: [6, 7]
@@ -383,5 +384,12 @@ let slot_sp_data = {
           NOT_self: 0
         }
       ]
+    },
+    307160: {
+      type: 1,
+      slot: [1],
+      check: 'eq_type',
+      list: slot_sp_data.type.tb,
+      p_diff: 50
     }
   }
