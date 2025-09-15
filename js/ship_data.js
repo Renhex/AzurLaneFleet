@@ -22679,7 +22679,7 @@ const ship_data = {
     rarity: 6,
     retro: 0,
     uni_id: '317020',
-    painting: 'I404',
+    painting: 'i404',
     jp_name: '伊404',
     en_name: 'I-404',
     cn_name: '伊404',
