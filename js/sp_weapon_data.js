@@ -2704,5 +2704,57 @@ const sp_weapon_data = {
     cn_name: '君主之誓 ',
     en_name: "Monarch's Pledge",
     tw_name: "Monarch's Pledge"
+  },
+  9914580: {
+    id: 9914580,
+    icon: '14580',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1140001,
+    type: 3,
+    jp_name: 'ヘスティアの紐',
+    cn_name: '赫斯缇亚的缎带',
+    en_name: "Hestia's String",
+    tw_name: "Hestia's String"
+  },
+  9914600: {
+    id: 9914600,
+    icon: '14600',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 1140002,
+    type: 2,
+    jp_name: 'アルヴス・ユースティティア',
+    cn_name: '精灵正义女神',
+    en_name: "Alf's Justitia",
+    tw_name: "Alf's Justitia"
+  },
+  9914560: {
+    id: 9914560,
+    icon: '14560',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30307,
+    type: 4,
+    jp_name: '風紀、守るべし！',
+    cn_name: '禁止扰乱风纪！',
+    en_name: 'Protector of Order',
+    tw_name: 'Protector of Order'
+  },
+  9914400: {
+    id: 9914400,
+    icon: '14400',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10520,
+    type: 6,
+    jp_name: '幸運をもたらす錨',
+    cn_name: '锚定幸运',
+    en_name: 'Anchor of Fortune',
+    tw_name: 'Anchor of Fortune'
   }
 }
