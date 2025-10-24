@@ -2756,5 +2756,70 @@ const sp_weapon_data = {
     cn_name: '锚定幸运',
     en_name: 'Anchor of Fortune',
     tw_name: 'Anchor of Fortune'
+  },
+  9914620: {
+    id: 9914620,
+    icon: '14620',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 960012,
+    type: 10,
+    jp_name: 'イブニングローズ',
+    cn_name: '暗夜蔷薇 ',
+    en_name: 'Evening Rose',
+    tw_name: 'Evening Rose'
+  },
+  9914640: {
+    id: 9914640,
+    icon: '14640',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 960013,
+    type: 10,
+    jp_name: '秩序と審判の槍',
+    cn_name: '秩序与审判之枪',
+    en_name: 'Spear of Order and Judgment',
+    tw_name: 'Spear of Order and Judgment'
+  },
+  9914660: {
+    id: 9914660,
+    icon: '14660',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 960014,
+    type: 10,
+    jp_name: '真珠の心',
+    cn_name: '珍珠之心',
+    en_name: 'Heart of Pearl',
+    tw_name: 'Heart of Pearl'
+  },
+  9914680: {
+    id: 9914680,
+    icon: '14680',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 960015,
+    type: 10,
+    jp_name: 'キュリオスエッジ',
+    cn_name: '好奇者之刀',
+    en_name: "Seeker's Saber",
+    tw_name: "Seeker's Saber"
+  },
+  9914700: {
+    id: 9914700,
+    icon: '14700',
+    eq_reload: [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    rarity: 4,
+    tech: 0,
+    limit: 960016,
+    type: 10,
+    jp_name: 'アドベンチャースタッフ',
+    cn_name: '冒险者之杖',
+    en_name: "Adventure's Staff",
+    tw_name: "Adventure's Staff"
   }
 }

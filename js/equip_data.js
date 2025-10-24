@@ -13642,5 +13642,20 @@ const equip_data = {
       2070, 2035, 2000, 1965, 1930, 1895, 1860, 1825, 1790, 1755, 1710, 1710,
       1710, 1710
     ]
+  },
+  150840: {
+    nationality: 96,
+    type: 10,
+    rarity: 4,
+    tech: 0,
+    id: 150840,
+    icon: '150840',
+    ship_type_forbidden: [],
+    jp_name: '自由群島招待状',
+    cn_name: '自由群岛邀请函',
+    en_name: 'Invitation to Islas de Libertád',
+    tw_name: 'Invitation to Islas de Libertád',
+    equip_limit: 0,
+    cd: []
   }
 }
