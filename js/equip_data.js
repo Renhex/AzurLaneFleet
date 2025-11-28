@@ -13657,5 +13657,50 @@ const equip_data = {
     tw_name: 'Invitation to Islas de Libertád',
     equip_limit: 0,
     cd: []
+  },
+  150900: {
+    nationality: 115,
+    type: 10,
+    rarity: 5,
+    tech: 0,
+    id: 150900,
+    icon: '150900',
+    ship_type_forbidden: [],
+    jp_name: '巨大おにぎり',
+    cn_name: '超大饭团',
+    en_name: 'Giant Onigiri',
+    tw_name: 'Giant Onigiri',
+    equip_limit: 0,
+    cd: []
+  },
+  150860: {
+    nationality: 115,
+    type: 10,
+    rarity: 5,
+    tech: 0,
+    id: 150860,
+    icon: '150860',
+    ship_type_forbidden: [],
+    jp_name: '封解主（ミカエル）',
+    cn_name: '<封解主（Michael）>',
+    en_name: 'Michael',
+    tw_name: 'Michael',
+    equip_limit: 0,
+    cd: []
+  },
+  150880: {
+    nationality: 115,
+    type: 10,
+    rarity: 5,
+    tech: 0,
+    id: 150880,
+    icon: '150880',
+    ship_type_forbidden: [],
+    jp_name: '霊結晶',
+    cn_name: '灵结晶',
+    en_name: 'Sephira Crystal',
+    tw_name: 'Sephira Crystal',
+    equip_limit: 0,
+    cd: []
   }
 }
