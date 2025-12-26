@@ -2925,5 +2925,70 @@ const sp_weapon_data = {
     cn_name: '极速潜行',
     en_name: 'Alarmtauchen!',
     tw_name: 'Alarmtauchen!'
+  },
+  9914880: {
+    id: 9914880,
+    icon: '14880',
+    eq_reload: [6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    rarity: 4,
+    tech: 0,
+    limit: 20705,
+    type: 7,
+    jp_name: 'レディの象徴（多分）',
+    cn_name: '淑女的象征（大概）',
+    en_name: "A Lady's Hallmark (Perhaps)",
+    tw_name: "A Lady's Hallmark (Perhaps)"
+  },
+  9914900: {
+    id: 9914900,
+    icon: '14900',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 30221,
+    type: 2,
+    jp_name: '吉祥秋津',
+    cn_name: '吉祥秋津',
+    en_name: 'Auspicious Dragonfly',
+    tw_name: 'Auspicious Dragonfly'
+  },
+  9914920: {
+    id: 9914920,
+    icon: '14920',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 40309,
+    type: 4,
+    jp_name: 'アイゼンくん',
+    cn_name: '小铁（Eisen）',
+    en_name: 'Eisen',
+    tw_name: 'Eisen'
+  },
+  9914940: {
+    id: 9914940,
+    icon: '14940',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 10308,
+    type: 4,
+    jp_name: 'あざとい要注意',
+    cn_name: '注意危险哦？',
+    en_name: 'Eyes Out for Danger',
+    tw_name: 'Eyes Out for Danger'
+  },
+  9914960: {
+    id: 9914960,
+    icon: '14960',
+    eq_reload: [],
+    rarity: 4,
+    tech: 0,
+    limit: 60506,
+    type: 6,
+    jp_name: '月桂の時輪',
+    cn_name: '月桂时轮',
+    en_name: 'Laureled Timepiece',
+    tw_name: 'Laureled Timepiece'
   }
 }
