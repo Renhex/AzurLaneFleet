@@ -5417,7 +5417,7 @@ const maximumFleet = 30,
   },
   // db
   db_name = 'image_cache',
-  db_ver = 14,
+  db_ver = 15,
   // dump data
   ALF_version = 0.05
 
